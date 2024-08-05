@@ -52,4 +52,8 @@ mv ~/.zshrc ~/.bak.zshrc
 fi
 cp .zshrc ~/
 
-
+echo "Installing Alacritty"
+sudo apt-get install -y alacritty
+sudo desktop-file-install extras/Alacritty.desktop
+sudo update-desktop-database
+cp .config/alacritty.toml ~/.config/
