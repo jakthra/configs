@@ -1,12 +1,15 @@
 #[env]
 #TERM = "xterm-256-color"
+import = [
+  "~/.config/alacritty/themes/themes/nightfox.toml"
+]
 
 [shell]
 program = "/bin/zsh"
 args = ["-l"]
 
 [window]
-opacity = 0.9
+opacity = 0.98
 padding.x = 10
 padding.y = 10
 decorations = "None"

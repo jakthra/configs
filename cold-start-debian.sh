@@ -56,4 +56,5 @@ echo "Installing Alacritty"
 sudo apt-get install -y alacritty
 sudo desktop-file-install extras/Alacritty.desktop
 sudo update-desktop-database
-cp .config/alacritty.toml ~/.config/
+mkdir -p ~/.config/alacritty/
+cp .config/alacritty/alacritty.toml ~/.config/alacritty/
